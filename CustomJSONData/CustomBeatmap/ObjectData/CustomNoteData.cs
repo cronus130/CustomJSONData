@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CustomJSONData.CustomBeatmap
 {
@@ -147,7 +147,7 @@ namespace CustomJSONData.CustomBeatmap
                 noteLineLayer,
                 beforeJumpNoteLineLayer,
                 GameplayType.BurstSliderElement,
-#if LATEST
+#if LATEST || V1_42_1
                 ScoringType.ChainLink,
 #else
                 ScoringType.BurstSliderElement,
